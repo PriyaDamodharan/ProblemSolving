@@ -1,4 +1,4 @@
-/*Given an array consisting of cost of toys. 
+Problem: Given an array consisting of cost of toys. 
 Given an integer K depicting the amount of money available to purchase toys. 
 Write a program to find the maximum number of toys one can buy with the amount K.
 
@@ -16,7 +16,7 @@ maximum number of toys is 6.
 Input: N = 7, K = 50
        cost = { 1, 12, 5, 111, 200, 1000, 10 }
 Output: 4
-*/
+
 
 
 public class Main {
