@@ -31,7 +31,7 @@ public class Main {
     }
 
     public static void maxOnes(int mat[][], int m) {
-        int row = 0,index = Integer.MAX_VALUE;
+        int row = -1,index = Integer.MAX_VALUE;
         for (int i = 0; i < m; i++) { //)(n)
             int val = firstOneIndex(mat[i],m); //O(logm)  Total time - O(nlogm)
             System.out.println(val);
